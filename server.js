@@ -11,6 +11,4 @@ app.use(webpackDevMiddleware(compiler, {
 }));
 
 const port = process.env.PORT || 3020;
-app.listen(port, function() {
-    console.log(`app listening on port ${port}`)
-});
+app.listen(port);
